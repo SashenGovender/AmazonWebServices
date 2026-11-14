@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Payments.Integrations\Payments.Integrations.csproj" />
+    <ProjectReference Include="..\Payments.Persistence\Payments.Persistence.csproj" />
+    <ProjectReference Include="..\Payments.Simulation\Payments.Simulation.csproj" />
+    <ProjectReference Include="..\Payments.UseCase\Payments.UseCase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Models\Responses\" />
+    <Folder Include="Models\Requests\" />
+  </ItemGroup>
+
+</Project>

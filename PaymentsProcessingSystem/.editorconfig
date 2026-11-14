@@ -98,7 +98,7 @@ dotnet_style_null_propagation = true:warning
 dotnet_style_prefer_is_null_check_over_reference_equality_method = true:warning
 
 # Keep explicit, traditional namespace declarations
-csharp_style_namespace_declarations = block_scoped:warning
+csharp_style_namespace_declarations = file_scoped:warning
 
 # var preferences: use var when the type is apparent
 csharp_style_var_for_built_in_types = true:warning
