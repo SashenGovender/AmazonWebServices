@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Deployables/">
+    <Project Path="src/Payments.API/Payments.API.csproj" Id="2b232a69-f880-4f3a-af2f-3f9dcbb139c4" />
+    <Project Path="src/Payments.Worker/Payments.Worker.csproj" Id="0d98be4f-6743-488e-93cf-a70eeaadfd67" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="NewProjectDiscussions.md" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="tests/Payments.IntegrationTests/Payments.IntegrationTests.csproj" Id="c6f0952c-4186-489b-b401-32f5c71a82ea" />
+    <Project Path="tests/Payments.UnitTests/Payments.UnitTests.csproj" Id="2bd64b59-c7d8-450a-8feb-b55b0daa1c6c" />
+  </Folder>
+  <Project Path="src/Payments.Abstractions/Payments.Abstractions.csproj" Id="9b1cdd11-6827-4802-9916-efaadb6fc276" />
+  <Project Path="src/Payments.Domain/Payments.Domain.csproj" Id="0ab9952d-ae9f-46ab-8d6a-45d6171446bb" />
+  <Project Path="src/Payments.Integrations/Payments.Integrations.csproj" Id="67beaf4a-7e05-4176-8db7-512bf5eb7802" />
+  <Project Path="src/Payments.Persistence/Payments.Persistence.csproj" Id="2ed0c9e8-5224-4028-8706-7cffd628541f" />
+  <Project Path="src/Payments.Simulation/Payments.Simulation.csproj" Id="c7078695-5b6d-455c-81d1-b8224f555526" />
+  <Project Path="src/Payments.UseCase/Payments.UseCase.csproj" Id="2031058b-0ed7-4584-88a7-fc73f4d63a1f" />
+</Solution>

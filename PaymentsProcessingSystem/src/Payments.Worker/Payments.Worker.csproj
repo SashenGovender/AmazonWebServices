@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>dotnet-Payments.Worker-ae857c82-5cba-4a14-a44a-8563081deca8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Payments.Integrations\Payments.Integrations.csproj" />
+    <ProjectReference Include="..\Payments.Persistence\Payments.Persistence.csproj" />
+    <ProjectReference Include="..\Payments.Simulation\Payments.Simulation.csproj" />
+    <ProjectReference Include="..\Payments.UseCase\Payments.UseCase.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Consumers\" />
+    <Folder Include="Installers\" />
+  </ItemGroup>
+</Project>
